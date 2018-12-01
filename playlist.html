@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="playlist.css">
+  </head>
+  <body>
+    <div class="header pt-5">
+        <span class="headerContent">click an album to add its tracks to the bin</span>
+    </div>
+    <div class="container-fluid main-container">
+        <div class="row"  id="parentDiv"></div>
+        <div class="albumCollector">
+             <ul class="albumUl"> </ul>
+       </div>
+           <div>
+                <button type="button" class="btn  btn-sm" id="clrTrack">clear tracks</button>
+                <button type="button" class="btn  btn-sm" id="subTrack">submit bin</button>
+        </div>
+    </div>
+    <div class ="footer  pl-5 py-3">
+          <span> &copy 2018 Edwin</span>
+    </div>
+  <script src="playlist.js"></script>
+  </body>
+</html>

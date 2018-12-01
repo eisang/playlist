@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: lightGrey;
+  top: 0%;
+  position:fixed;
+  width: 100%;
+  clear: both;
+  position:relative;
+}
+
+h1 {
+   color:purple;
+}
+
+.btn {
+   padding:8px;
+   border-radius:4px;
+   color:purple;
+   width:150px;
+}
+
+#bin{
+  padding-top: 20rem !important;
+}
+
+#track2 {
+    background-image:url(/Users/edmosesisang@gmail.com/playlist/resources/fadedTrack.jpg);
+    height: 900px;
+}
+
+.musiq {
+ width: 230px;
+ height: 230px;
+ margin-bottom: 15px;
+}
+
+.musiq > img {
+  width:100%;
+}
+
+.musical {
+  margin-top: 5%;
+  margin-left: 37%;
+}
+
+.rail {
+  border:red solid 3px;
+  opacity: 19%;
+  position: fixed;
+  height:800px;
+  z-index: -1;
+}
+
+.footer {
+  background: grey;
+  color: #fff;
+  bottom: 0%;
+  position:fixed;
+  width: 100%;
+  clear: both;
+
+}

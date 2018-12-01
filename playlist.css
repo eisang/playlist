@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: lightGrey;
+  top: 0%;
+  position:fixed;
+  width: 100%;
+  clear: both;
+  position:relative;
+}
+
+.headerContent {
+  padding-left: 30px;
+  font-size: 25px;
+  color:#fff;
+}
+
+
+#parentDiv {
+  margin-top:30px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.divc {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-top:30px;
+  padding: 20px;
+  max-width: 80%;
+  max-height:120px;
+  margin-bottom: 30px;
+  margin-top:20px;
+  padding-left: 40px;
+}
+
+ .diva {
+height:100px;
+width: 100px;
+margin-right:200px;
+margin-bottom: 30px;
+
+}
+
+.diva  img {
+width: 100px;
+margin-right: 20px;
+}
+
+.albumCollector {
+border:2px black solid;
+overflow: scroll;
+padding:18px 0;
+width:80%;
+height:250px;
+
+}
+
+button {
+  padding-left:18px;
+  border-radius:4px;
+   width:200px;
+   margin-left:50px;
+   margin-top:30px;
+   background-color: black;
+   color: #fff;
+   font-size: 16px;
+}
+.albumUl{
+  list-style: none;
+}
+
+button :hover{
+    background-color: red;
+}
+
+.footer {
+  background: grey;
+  color: #fff;
+  bottom: 0%;
+  position:fixed;
+  width: 100%;
+  clear: both;
+}
